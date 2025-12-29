@@ -31,7 +31,7 @@ Situé dans `src/monte-carlo.py`, ce script réalise une simulation exacte de la
 
 1. Cloner le dépôt :
 ```bash
-git clone []()
+git clone [https://github.com/JoJoMR66/popcell-evolution.git](https://github.com/JoJoMR66/popcell-evolution.git)
 cd projet-cellule
 
 "Pour installer les bibliothèques nécessaires, tapez la commande suivante : pip install -r requirements.txt"
