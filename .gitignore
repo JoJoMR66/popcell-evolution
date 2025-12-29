@@ -1,0 +1,28 @@
+# --- Python ---
+__pycache__/          # Fichiers compilés par Python
+*.pyc                 # Idem
+*.pyo
+*.pyd
+.pytest_cache/        # Si tu fais des tests plus tard
+
+# --- Numba ---
+# Numba crée parfois des fichiers de cache pour accélérer le prochain lancement
+*.nbc
+*.nbi
+
+# --- Données et Sorties (Très important !) ---
+# Ton code génère probablement des fichiers lourds avec save_data()
+# On ne veut pas saturer GitHub avec des mégaoctets de chiffres
+*.csv
+*.npy
+*.npz
+*.out
+*.log
+results/              # Si tu décides de mettre tes exports dans un dossier
+
+# --- Environnement et IDE ---
+.venv/                # Environnement virtuel (si tu en as un)
+venv/
+.vscode/              # Paramètres de Visual Studio Code
+.DS_Store             # Fichiers système Mac
+
